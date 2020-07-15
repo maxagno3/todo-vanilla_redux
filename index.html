@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla-Redux | TODO APP</title>
+    <link rel="stylesheet" href="assets/stylesheets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/f4e5dcf0e0.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      defer
+      src="https://unpkg.com/redux@3.7.1/dist/redux.min.js"
+    ></script>
+    <script defer src="main.js"></script>
+  </head>
+  <body>
+    <div class="text-centre">
+      <h1>todos</h1>
+      <i class="fas fa-chevron-down"></i>
+      <input type="text" placeholder="What needs to be done?" class="input" />
+    </div>
+
+    <div class="text-centre">
+      <ul></ul>
+    </div>
+
+    <footer class="footer">
+      <div class="main_flex">
+        <span class="itemsLeft">items left</span>
+        <ul class="sub_flex">
+          <li class="all"><a href="#">All</a></li>
+          <li class="active"><a href="#">Active</a></li>
+          <li class="completed"><a href="#">Completed</a></li>
+        </ul>
+        <button class="clear">Clear Completed</button>
+      </div>
+    </footer>
+  </body>
+</html>
