@@ -84,14 +84,13 @@ time,
 mark,
 audio,
 video {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
-
 
 /* HTML5 display-role reset for older browsers */
 
@@ -106,39 +105,37 @@ hgroup,
 menu,
 nav,
 section {
-    display: block;
+  display: block;
 }
 
 body {
-    line-height: 1;
+  line-height: 1;
 }
 
 ol,
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 blockquote,
 q {
-    quotes: none;
+  quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-    content: '';
-    content: none;
+  content: "";
+  content: none;
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
-
 /* ================================================================================= */
-
 
 /* My CSS */
 
@@ -146,132 +143,140 @@ table {
 *,
 *::after,
 *::before {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    margin: 0 auto;
-    max-width: 500px;
+  margin: 0 auto;
+  max-width: 500px;
 }
 
 h1 {
-    font-size: 100px;
-    margin: 0;
-    color: #EAD7D7;
-    font-weight: 200;
-    opacity: 0.4;
+  font-size: 100px;
+  margin: 0;
+  color: #ead7d7;
+  font-weight: 200;
+  opacity: 0.4;
 }
 
 .text-centre {
-    text-align: center;
-    /* box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1); */
+  text-align: center;
 }
 
 .main_flex {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
 
 .sub_flex {
-    display: flex;
-    justify-content: space-evenly;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 body {
-    background-color: #F5F5F5;
-    font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f5f5f5;
+  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /* Main CSS */
 .all {
-    margin: 3px;
-    padding: 3px 7px;
-    text-decoration: none;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    font-size: 16px;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
 }
 .input {
-    width: 100%;
-    padding: 15px 30px;
-    opacity: 0.5;
-    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
-    background-color: #FEFEFE;
+  width: 100%;
+  padding: 15px 30px;
+  opacity: 0.5;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  background-color: #fefefe;
 }
 
 input::placeholder {
-    font-weight: 100;
-    opacity: 0.5;
-    font-style: italic;
-    margin: 0;
-    width: 100%;
-    font-size: 24px;
-    line-height: 1.4em;
+  font-weight: 100;
+  opacity: 0.5;
+  font-style: italic;
+  margin: 0;
+  width: 100%;
+  font-size: 24px;
+  line-height: 1.4em;
 }
 
 .todo_li {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    margin: 0 auto;
-    border: 1px solid black;
-    padding: 10px 10px;
-    position: relative;
-    font-size: 24px;
-    border-bottom: 1px solid #ededed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px 10px;
+  position: relative;
+  font-size: 24px;
+  border-bottom: 1px solid #ededed;
 }
 
-input:checked+p {
-    text-decoration: line-through;
+input:checked + p {
+  text-decoration: line-through;
 }
-
 
 .active {
-    margin: 3px;
-    padding: 3px 7px;
-    text-decoration: none;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    font-size: 16px;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
 }
 
 .completed {
-    margin: 3px;
-    padding: 3px 7px;
-    text-decoration: none;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    font-size: 16px;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
 }
 
 .clear {
-    margin-right: 5px;
-    padding: 0;
-    border: 0;
-    background: none;
-    font-size: 100%;
+  margin-right: 5px;
+  padding: 0;
+  border: 0;
+  background: none;
+  font-size: 100%;
 }
 
 .footer {
-    border: 1px solid black;
-    background-color: white;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6, 0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6, 0 17px 2px -6px rgba(0, 0, 0, 0.2);
+  border: 1px solid black;
+  background-color: white;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), 0 8px 0 -3px #f6f6f6,
+    0 9px 1px -3px rgba(0, 0, 0, 0.2), 0 16px 0 -6px #f6f6f6,
+    0 17px 2px -6px rgba(0, 0, 0, 0.2);
 }
 
 .itemsLeft {
-    margin: 3px;
-    padding: 3px 7px;
-    text-decoration: none;
-    border: 1px solid transparent;
-    border-radius: 3px;
-    font-size: 16px;
-    font-weight: 300;
+  margin: 3px;
+  padding: 3px 7px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .fas {
-    position: absolute;
-    z-index: 50;
-    padding-top: 20px;
-    padding-left: 10px;
+  position: absolute;
+  z-index: 50;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+
+span {
+  cursor: pointer;
+}
+
+.clear {
+  cursor: pointer;
 }
